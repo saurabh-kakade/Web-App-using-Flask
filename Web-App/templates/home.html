@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/static/style.css"/>
+
+<title>VisualsHome</title>
+
+</head>
+<body>
+
+
+<h1 align="left"> Welcome to MSc Python Assignment 3.</h1>
+<p><b> This webpage will guide you through instructions for displaying the visuals.<b></p>
+<p><b> You can select the values from options provided on the next page and create </b></p> 
+<p><b> your own visuals.</b></p>
+
+<h3 align="left"> To proceed please click on below button. </h3> 
+
+<form action="/types" method="POST" autocomplete="off">
+{{ data | safe }} 
+<input type="submit" value="Proceed">
+
+<p><b> For example of visuals from Assignment's second part </b></p>
+<p><b> please click below links: </b></p>
+
+<p><a href="static/plot1.html"> Plot 1 : Sum of ESB_Connections For Each Council as Per Years </a></br></p>
+<p><a href="static/plot2.html"> Plot 2 : Comparison of Total ESB_Connections in City Councils <br> and County Councils over Years </a></br></p>
+<p><a href="static/plot3.html"> Plot 3 : ESB_Connections in Dublin City for each month and Years </a></br></p>
+<p><a href="static/plot4.html"> Plot 4 : Average ESB_Connections Provided in City Councils for each Year </a></br></p>
+<p><a href="static/plot5.html"> Plot 5 : Maximum No. of ESB_Connections in Each Year for both Council_Type </a></br></p>
+
+</form>
+
+</body>
+</html>
